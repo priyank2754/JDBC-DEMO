@@ -17,6 +17,7 @@ public class StudentDatabase
 	{ StudentDatabase studentDatabase=new StudentDatabase();
 	    try {
 			//yuulllll
+			//jkkkk
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			 connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcdb", "root", "puw544");
 			 System.out.println("ENTER CHOICE");
