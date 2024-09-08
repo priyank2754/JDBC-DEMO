@@ -16,7 +16,11 @@ public class StudentDatabase
 	public static void main(String[] args)  
 	{ StudentDatabase studentDatabase=new StudentDatabase();
 	    try {
-			//yuupppp
+
+			
+
+			//yuulllll
+
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			 connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcdb", "root", "puw544");
 			 System.out.println("ENTER CHOICE");
